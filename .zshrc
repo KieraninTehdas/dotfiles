@@ -70,6 +70,8 @@ export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/emulator:$ANDROID_HOME/tools:$ANDROID_HOME/tools/bin:$ANDROID_HOME/platform-tools
 export PATH=$PATH:/opt/applications/gradle/gradle-4.8/bin:${JAVA_HOME}
 
+export FZF_DEFAULT_COMMAND='rg --files --follow'
+
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
