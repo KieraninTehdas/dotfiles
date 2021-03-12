@@ -1,6 +1,7 @@
 alias zshconfig="vim ~/.zshrc"
 alias zshsource="source ~/.zshrc"
 alias zshalias="vim ~/.oh-my-zsh/custom/aliases.zsh"
+alias vimconfig="vim ~/.vimrc"
 alias ls="lsd"
 alias dotconfig='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias pbcopy='xclip -selection clipboard'

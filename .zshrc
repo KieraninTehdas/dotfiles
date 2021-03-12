@@ -99,10 +99,7 @@ bashcompinit
 export PYENV_ROOT="$HOME/.pyenv"
 export PATH="$PYENV_ROOT/bin:$PATH"
 
-export PATH="$HOME/.rbenv/bin:$PATH"
-
 eval "$(register-python-argcomplete pipx)"
 
-eval "$(rbenv init -)"
 eval "$(pyenv init -)"
 source /home/kieran/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
