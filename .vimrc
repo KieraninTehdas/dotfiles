@@ -30,4 +30,5 @@ set number
 colorscheme nord
 set rtp+=/home/linuxbrew/.linuxbrew/opt/fzf
 
-source ~/.vim/config/ale_config.vim
+source ~/.vim/config/ale.vim
+source ~/.vim/config/nerdtree.vim
