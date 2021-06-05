@@ -6,7 +6,8 @@ autocmd VimEnter * if argc() == 0 && !exists('s:std_in') | NERDTree | endif
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() |
      \ quit | endif
 
-let g:NERDTreeGitStatusUseNerdFonts = 1
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
 
 nnoremap <Leader>f :NERDTreeToggle<Enter>
 nnoremap <silent> <Leader>v :NERDTreeFind<CR>

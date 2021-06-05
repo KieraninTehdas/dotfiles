@@ -9,6 +9,6 @@ alias pbpaste='xclip -selection clipboard -o'
 alias mdr='mdr_linux_amd64'
 alias postman='nohup /opt/Postman/app/Postman & disown'
 
-function lq() {
+function lj() {
 	jq '.' -C $1 | less
 }

@@ -102,4 +102,5 @@ export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(register-python-argcomplete pipx)"
 
 eval "$(pyenv init -)"
+eval "$(rbenv init -)"
 source /home/kieran/.oh-my-zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

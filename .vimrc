@@ -16,15 +16,19 @@ call plug#begin('~/.vim/plugs')
 Plug 'tpope/vim-sensible'
 Plug 'sheerun/vim-polyglot'
 Plug 'junegunn/fzf.vim'
-"Plug 'ludovicchabant/vim-gutentags'
 Plug 'tmsvg/pear-tree'
 Plug 'arcticicestudio/nord-vim'
 Plug 'preservim/nerdtree'
 Plug 'vim-airline/vim-airline'
 Plug 'dense-analysis/ale'
 Plug 'davidhalter/jedi-vim'
+Plug 'rust-lang/rust.vim'
 
 call plug#end()
+
+" For rust language server
+syntax enable
+filetype plugin indent on
 
 set number
 colorscheme nord
